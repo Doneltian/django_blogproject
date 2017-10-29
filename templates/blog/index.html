@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<h1>{{ welcome }}</h1>
+<!--这是一个标准的 HTML 文档，只是里面有两个比较奇怪的地方：{ { title } }，{ { welcome } }。
+这是 Django 规定的语法。用 { { } } 包起来的变量叫做模板变量。
+Django 在渲染这个模板的时候会根据我们传递给模板的变量替换掉这些变量。
+最终在模板中显示的将会是我们传递的值。
+注意：index.html 必须以 UTF-8 的编码格式保存，且小心不要往里面添加一些特殊字符，
+否则极有可能得到一个 UnicodeDecodeError 这样的错误。-->
+</body>
+</html>
+
